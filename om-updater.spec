@@ -1,5 +1,5 @@
 Name:           om-updater
-Version:        1.0.4
+Version:        1.0.5
 Release:        1
 Summary:        OpenMandriva System Tray Updater with Flatpak support
 
