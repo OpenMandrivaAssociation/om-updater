@@ -1,7 +1,8 @@
 Name:           om-updater
 Version:        1.0.6
-Release:        1
+Release:        2
 Summary:        OpenMandriva System Tray Updater with Flatpak support
+Group:          System/Configuration
 
 License:        GPL-3.0-or-later
 URL:            https://github.com/sez11a/om-updater
@@ -30,8 +31,8 @@ need for updates.
 
 %build
 # Python bytecode compilation
-%{__python3} -m compileall om-updater.py
-%{__python3} -m compileall om-installer.py
+%{__python} -m compileall om-updater.py
+%{__python} -m compileall om-installer.py
 
 %install
 mkdir -p %{buildroot}%{_bindir}
